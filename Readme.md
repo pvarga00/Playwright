@@ -152,3 +152,31 @@ Initializing project in '.'
 √ Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
 Initializing NPM project (npm init -y)…
 Wrote to C:\Users\pvarg\package.json
+
+Run the Tests:
+  npx playwright test
+
+To open last HTML report run:
+  npx playwright show-report
+
+Run UI:
+  npx playwright test --ui
+
+Helpful Docs:
+https://playwright.dev/docs/writing-tests
+
+https://playwright.dev/docs/api/class-locator
+
+
+Action | Description
+------------------------------------------
+locator.check()	> Check the input checkbox
+locator.click()	> Click the element
+locator.uncheck() > Uncheck the input checkbox
+locator.hover() > Hover mouse over the element
+locator.fill() > Fill the form field, input text
+locator.focus() > Focus the element
+locator.press() > Press single key
+locator.setInputFiles() > Pick files to upload
+locator.selectOption() > Select option in the drop down
+
